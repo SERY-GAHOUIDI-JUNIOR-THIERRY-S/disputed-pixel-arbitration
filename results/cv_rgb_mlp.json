@@ -1,0 +1,360 @@
+{
+  "n_folds": 5,
+  "n_scenes": 53,
+  "pooled": {
+    "base": 0.5666810127779233,
+    "agent": 0.7751758135012993,
+    "gain": 0.208494800723376
+  },
+  "scene_mean": {
+    "base": 0.5433499144262199,
+    "agent": 0.6665304483093804,
+    "gain": 0.12318053388316041
+  },
+  "category_mean": {
+    "base": 0.5402421659418947,
+    "agent": 0.6598586327895894,
+    "gain": 0.11961646684769478
+  },
+  "per_fold_catmean": {
+    "base": [
+      0.5882984193563829,
+      0.5790016439194787,
+      0.4414190748377139,
+      0.6461364096053335,
+      0.3510482074204446
+    ],
+    "agent": [
+      0.7142786661417682,
+      0.7198795845411262,
+      0.5190396567961032,
+      0.7313607396028602,
+      0.6161840775421508
+    ]
+  },
+  "per_category": {
+    "baseline": {
+      "base": 0.6503769572679168,
+      "agent": 0.8013960734415567,
+      "gain": 0.15101911617363994
+    },
+    "cameraJitter": {
+      "base": 0.7269058718654853,
+      "agent": 0.762500462757462,
+      "gain": 0.035594590891976696
+    },
+    "badWeather": {
+      "base": 0.6071896423402385,
+      "agent": 0.7416168806478531,
+      "gain": 0.1344272383076146
+    },
+    "dynamicBackground": {
+      "base": 0.6120467461047167,
+      "agent": 0.841722012060114,
+      "gain": 0.22967526595539733
+    },
+    "intermittentObjectMotion": {
+      "base": 0.5263656468162261,
+      "agent": 0.6830809680313701,
+      "gain": 0.15671532121514398
+    },
+    "lowFramerate": {
+      "base": 0.4941195579264515,
+      "agent": 0.5684499968819567,
+      "gain": 0.07433043895550523
+    },
+    "nightVideos": {
+      "base": 0.32339195833198964,
+      "agent": 0.35591613159823804,
+      "gain": 0.0325241732662484
+    },
+    "PTZ": {
+      "base": 0.1347180518954122,
+      "agent": 0.35909685743685593,
+      "gain": 0.22437880554144374
+    },
+    "shadow": {
+      "base": 0.7193605706124252,
+      "agent": 0.9263664430788424,
+      "gain": 0.20700587246641722
+    },
+    "thermal": {
+      "base": 0.664560319415573,
+      "agent": 0.6781628081180872,
+      "gain": 0.013602488702514126
+    },
+    "turbulence": {
+      "base": 0.48362850278440617,
+      "agent": 0.5401363266331471,
+      "gain": 0.05650782384874098
+    }
+  },
+  "worst_category_gain": 0.013602488702514126,
+  "scene_f1": {
+    "baseline/office": {
+      "cat": "baseline",
+      "base": 0.7947721962137119,
+      "agent": 0.9444684557458037
+    },
+    "cameraJitter/boulevard": {
+      "cat": "cameraJitter",
+      "base": 0.8525953207033976,
+      "agent": 0.8555759086702269
+    },
+    "badWeather/snowFall": {
+      "cat": "badWeather",
+      "base": 0.7041508159436254,
+      "agent": 0.8849655250030757
+    },
+    "dynamicBackground/fall": {
+      "cat": "dynamicBackground",
+      "base": 0.5864908517559613,
+      "agent": 0.6690481055631674
+    },
+    "dynamicBackground/canoe": {
+      "cat": "dynamicBackground",
+      "base": 0.8918382992450232,
+      "agent": 0.9308148138627215
+    },
+    "intermittentObjectMotion/abandonedBox": {
+      "cat": "intermittentObjectMotion",
+      "base": 0.5463262747056017,
+      "agent": 0.8756477876829116
+    },
+    "intermittentObjectMotion/winterDriveway": {
+      "cat": "intermittentObjectMotion",
+      "base": 0.08571163748788518,
+      "agent": 0.28506666165453665
+    },
+    "lowFramerate/turnpike_0_5fps": {
+      "cat": "lowFramerate",
+      "base": 0.67096252061152,
+      "agent": 0.7232916814479307
+    },
+    "nightVideos/streetCornerAtNight": {
+      "cat": "nightVideos",
+      "base": 0.345619009000625,
+      "agent": 0.4359168814938196
+    },
+    "nightVideos/winterStreet": {
+      "cat": "nightVideos",
+      "base": 0.34243540506973463,
+      "agent": 0.3235558906927259
+    },
+    "PTZ/twoPositionPTZCam": {
+      "cat": "PTZ",
+      "base": 0.28942176110158213,
+      "agent": 0.6992093443750197
+    },
+    "shadow/bungalows": {
+      "cat": "shadow",
+      "base": 0.9026372851165085,
+      "agent": 0.9452966766572457
+    },
+    "shadow/backdoor": {
+      "cat": "shadow",
+      "base": 0.7767280427775203,
+      "agent": 0.9647496919647922
+    },
+    "thermal/library": {
+      "cat": "thermal",
+      "base": 0.8726513460899372,
+      "agent": 0.8480196551462548
+    },
+    "turbulence/turbulence0": {
+      "cat": "turbulence",
+      "base": 0.04783524967700715,
+      "agent": 0.1864865023851783
+    },
+    "baseline/pedestrians": {
+      "cat": "baseline",
+      "base": 0.5839119449764913,
+      "agent": 0.6694972870919109
+    },
+    "cameraJitter/traffic": {
+      "cat": "cameraJitter",
+      "base": 0.7771939591062611,
+      "agent": 0.8009648669489317
+    },
+    "badWeather/skating": {
+      "cat": "badWeather",
+      "base": 0.6213460593692286,
+      "agent": 0.7739561804388406
+    },
+    "dynamicBackground/overpass": {
+      "cat": "dynamicBackground",
+      "base": 0.8240039035198549,
+      "agent": 0.9522691963933326
+    },
+    "intermittentObjectMotion/parking": {
+      "cat": "intermittentObjectMotion",
+      "base": 0.4339176181042306,
+      "agent": 0.7602718566099795
+    },
+    "lowFramerate/tunnelExit_0_35fps": {
+      "cat": "lowFramerate",
+      "base": 0.5507710428470783,
+      "agent": 0.8023878258954296
+    },
+    "nightVideos/busyBoulvard": {
+      "cat": "nightVideos",
+      "base": 0.24874730105143003,
+      "agent": 0.19207394920909523
+    },
+    "PTZ/zoomInZoomOut": {
+      "cat": "PTZ",
+      "base": 0.019982012276341672,
+      "agent": 0.34588980184087165
+    },
+    "shadow/copyMachine": {
+      "cat": "shadow",
+      "base": 0.7367349177217181,
+      "agent": 0.8597178737727845
+    },
+    "thermal/diningRoom": {
+      "cat": "thermal",
+      "base": 0.8146230817537559,
+      "agent": 0.8896235611802915
+    },
+    "turbulence/turbulence2": {
+      "cat": "turbulence",
+      "base": 0.7577862423878758,
+      "agent": 0.8720230305709198
+    },
+    "baseline/highway": {
+      "cat": "baseline",
+      "base": 0.7408811682962372,
+      "agent": 0.766689315194766
+    },
+    "cameraJitter/sidewalk": {
+      "cat": "cameraJitter",
+      "base": 0.46185978928319216,
+      "agent": 0.5126460369368304
+    },
+    "badWeather/wetSnow": {
+      "cat": "badWeather",
+      "base": 0.4072940851324164,
+      "agent": 0.5863596286051644
+    },
+    "dynamicBackground/fountain01": {
+      "cat": "dynamicBackground",
+      "base": 0.11065642024821414,
+      "agent": 0.7148467102514683
+    },
+    "intermittentObjectMotion/sofa": {
+      "cat": "intermittentObjectMotion",
+      "base": 0.7863779088510868,
+      "agent": 0.7970125366280104
+    },
+    "lowFramerate/port_0_17fps": {
+      "cat": "lowFramerate",
+      "base": 0.003543701627640732,
+      "agent": 0.007705132669846565
+    },
+    "nightVideos/fluidHighway": {
+      "cat": "nightVideos",
+      "base": 0.3256040006181269,
+      "agent": 0.24399444758737504
+    },
+    "PTZ/continuousPan": {
+      "cat": "PTZ",
+      "base": 0.17882641884654005,
+      "agent": 0.26397401844015617
+    },
+    "shadow/busStation": {
+      "cat": "shadow",
+      "base": 0.8592811158298947,
+      "agent": 0.953196082113041
+    },
+    "thermal/park": {
+      "cat": "thermal",
+      "base": 0.34376569635171395,
+      "agent": 0.22060463824757598
+    },
+    "turbulence/turbulence1": {
+      "cat": "turbulence",
+      "base": 0.6375195181297896,
+      "agent": 0.6424076780829006
+    },
+    "baseline/PETS2006": {
+      "cat": "baseline",
+      "base": 0.48194251958522644,
+      "agent": 0.8249292357337459
+    },
+    "cameraJitter/badminton": {
+      "cat": "cameraJitter",
+      "base": 0.8159744183690901,
+      "agent": 0.8808150384738589
+    },
+    "badWeather/blizzard": {
+      "cat": "badWeather",
+      "base": 0.6959676089156834,
+      "agent": 0.7211861885443317
+    },
+    "dynamicBackground/fountain02": {
+      "cat": "dynamicBackground",
+      "base": 0.5915107256482572,
+      "agent": 0.8744536345413495
+    },
+    "intermittentObjectMotion/streetLight": {
+      "cat": "intermittentObjectMotion",
+      "base": 0.9323089246851205,
+      "agent": 0.9847693802834183
+    },
+    "lowFramerate/tramCrossroad_1fps": {
+      "cat": "lowFramerate",
+      "base": 0.7512009666195669,
+      "agent": 0.7404153475146201
+    },
+    "nightVideos/tramStation": {
+      "cat": "nightVideos",
+      "base": 0.5706314949946363,
+      "agent": 0.5816983054666615
+    },
+    "PTZ/intermittentPan": {
+      "cat": "PTZ",
+      "base": 0.050642015357184975,
+      "agent": 0.1273142650913762
+    },
+    "shadow/peopleInShade": {
+      "cat": "shadow",
+      "base": 0.8961010373276683,
+      "agent": 0.9755591310356102
+    },
+    "thermal/corridor": {
+      "cat": "thermal",
+      "base": 0.8298477932132824,
+      "agent": 0.8741995134528999
+    },
+    "turbulence/turbulence3": {
+      "cat": "turbulence",
+      "base": 0.4913730009429521,
+      "agent": 0.45962809549359
+    },
+    "dynamicBackground/boats": {
+      "cat": "dynamicBackground",
+      "base": 0.6677802762109893,
+      "agent": 0.9088996117486443
+    },
+    "intermittentObjectMotion/tramstop": {
+      "cat": "intermittentObjectMotion",
+      "base": 0.3735515170634321,
+      "agent": 0.39571758532936374
+    },
+    "nightVideos/bridgeEntry": {
+      "cat": "nightVideos",
+      "base": 0.10731453925738502,
+      "agent": 0.35825731513975106
+    },
+    "shadow/cubicle": {
+      "cat": "shadow",
+      "base": 0.14468102490124082,
+      "agent": 0.8596792029295819
+    },
+    "thermal/lakeSide": {
+      "cat": "thermal",
+      "base": 0.46191367966917557,
+      "agent": 0.5583666725634134
+    }
+  }
+}

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Adaptive Cross-Scene Foreground Segmentation via Learned Disputed-Pixel Arbitration"
+type: software
+authors:
+  - given-names: "Sery"
+    family-names: "Gahouidi Junior Thierry"
+    affiliation: "Nanjing University of Aeronautics and Astronautics"
+    email: juniorsery00@gmail.com
+  - given-names: "Zhe"
+    family-names: "Chen"
+    affiliation: "Nanjing University of Aeronautics and Astronautics"
+    email: zhechen@nuaa.edu.cn
+year: 2026
+# After the Zenodo release, add the DOI it mints, e.g.:
+# doi: 10.5281/zenodo.XXXXXXX
+license: MIT
+repository-code: "https://github.com/SERY-GAHOUIDI-JUNIOR-THIERRY-S/disputed-pixel-arbitration"
+keywords:
+  - foreground segmentation
+  - background subtraction
+  - model communication
+  - reinforcement learning
+  - cross-scene generalisation
+preferred-citation:
+  type: article
+  title: "Adaptive Cross-Scene Foreground Segmentation via Learned Disputed-Pixel Arbitration"
+  authors:
+    - given-names: "Sery"
+      family-names: "Gahouidi Junior Thierry"
+    - given-names: "Zhe"
+      family-names: "Chen"
+  journal: "Pattern Analysis and Applications (under review)"
+  year: 2026

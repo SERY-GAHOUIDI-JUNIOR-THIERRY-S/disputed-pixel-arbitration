@@ -1,0 +1,19 @@
+# Python dependencies. Tested with Python 3.10+.
+# Core numerics / IO
+numpy>=1.24
+scipy>=1.10
+opencv-python>=4.7
+numba>=0.57
+tqdm>=4.65
+matplotlib>=3.7
+Pillow>=9.5
+
+# DRL arbiter (training / evaluation)
+torch>=2.0
+
+# Guidance models (DeepLabV3+ / PSPNet via MMSegmentation) — needed only to
+# (re)generate guidance from scratch; cached guidance (.npz) runs without it.
+# Install per the MMSegmentation instructions (mmcv must match your torch/CUDA):
+#   mmengine>=0.8
+#   mmcv>=2.0
+#   mmsegmentation>=1.0
