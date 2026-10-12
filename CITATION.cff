@@ -12,8 +12,7 @@ authors:
     affiliation: "Nanjing University of Aeronautics and Astronautics"
     email: zhechen@nuaa.edu.cn
 year: 2026
-# After the Zenodo release, add the DOI it mints, e.g.:
-# doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.23318552
 license: MIT
 repository-code: "https://github.com/SERY-GAHOUIDI-JUNIOR-THIERRY-S/disputed-pixel-arbitration"
 keywords:
