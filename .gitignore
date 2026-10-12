@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.blg
+# keep the compiled .bbl (committed so the paper builds without the raw .bib)
+!paper/latex/*.bbl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Large data (download from original sources; do not commit)
+data/
+datasets/
+*.mp4
+checkpoints/
+*.pth
+*.ckpt
