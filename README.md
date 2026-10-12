@@ -10,9 +10,7 @@ and figures.
 Aeronautics and Astronautics (NUAA), Nanjing 211106, China
 **Contact:** zhechen@nuaa.edu.cn · juniorsery00@gmail.com
 
-<!-- After you create the Zenodo release, paste the DOI badge here, e.g.:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
--->
+[![DOI](https://zenodo.org/badge/1415563889.svg)](https://doi.org/10.5281/zenodo.23318552)
 
 ## Overview
 
@@ -135,7 +133,9 @@ If you use this work, please cite the paper. A machine-readable `CITATION.cff` i
   title   = {Adaptive Cross-Scene Foreground Segmentation via Learned Disputed-Pixel Arbitration},
   author  = {Gahouidi Junior Thierry, Sery and Chen, Zhe},
   journal = {Pattern Analysis and Applications (under review)},
-  year    = {2026}
+  year    = {2026},
+  doi     = {10.5281/zenodo.23318552},
+  url     = {https://github.com/SERY-GAHOUIDI-JUNIOR-THIERRY-S/disputed-pixel-arbitration}
 }
 ```
 
