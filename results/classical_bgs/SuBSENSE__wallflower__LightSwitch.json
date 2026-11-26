@@ -1,0 +1,1 @@
+{"method": "SuBSENSE", "dataset": "wallflower", "sequence": "LightSwitch", "result": {"score": 0.28950474479300736, "P": 0.1702387562465288, "R": 0.9668874172185126, "tp": 3066, "fp": 14944, "fn": 105, "tn": 1085}}

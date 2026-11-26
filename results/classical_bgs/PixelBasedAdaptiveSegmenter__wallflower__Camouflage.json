@@ -1,0 +1,1 @@
+{"method": "PixelBasedAdaptiveSegmenter", "dataset": "wallflower", "sequence": "Camouflage", "result": {"score": 0.8443199087645887, "P": 0.8343345222451582, "R": 0.854547202461057, "tp": 8889, "fp": 1765, "fn": 1513, "tn": 7033}}

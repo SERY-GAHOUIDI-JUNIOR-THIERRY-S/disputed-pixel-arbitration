@@ -1,0 +1,1083 @@
+{
+ "limu": [
+  {
+   "system": "CPB (R6, frozen)",
+   "per_seq": {
+    "CameraParameter": 0.6741769156297819,
+    "Intersection": 0.6877011864561199,
+    "LightSwitch": 0.5795096429898756
+   },
+   "mean": 0.6471292483585925
+  },
+  {
+   "system": "DeepLabV3+ alone",
+   "per_seq": {
+    "CameraParameter": 0.7996133651478142,
+    "Intersection": 0.5656457194483449,
+    "LightSwitch": 0.6208517367705292
+   },
+   "mean": 0.6620369404555627
+  },
+  {
+   "system": "CPB + DeepLabV3+: Liang framework, our re-impl.",
+   "per_seq": {
+    "CameraParameter": 0.8184859420226968,
+    "Intersection": 0.7245412856560439,
+    "LightSwitch": 0.5891096520779365
+   },
+   "mean": 0.7107122932522257
+  },
+  {
+   "system": "CPB + DeepLabV3+: Liang framework (block repl.), our re-impl.",
+   "per_seq": {
+    "CameraParameter": 0.8008635093934741,
+    "Intersection": 0.5769504551735061,
+    "LightSwitch": 0.6238096503280735
+   },
+   "mean": 0.6672078716316845
+  },
+  {
+   "system": "Liang framework, authors' released code",
+   "per_seq": {
+    "CameraParameter": 0.7762,
+    "Intersection": 0.5651,
+    "LightSwitch": 0.6601
+   },
+   "mean": 0.6671333333333332
+  },
+  {
+   "system": "**CPB + DeepLabV3+: framework + arbiter (ours)**",
+   "per_seq": {
+    "CameraParameter": 0.8236100490501954,
+    "Intersection": 0.7334689397030747,
+    "LightSwitch": 0.7445514182382942
+   },
+   "mean": 0.7672101356638548
+  },
+  {
+   "system": "CPB + DeepLabV3+: oracle arbiter (ceiling)",
+   "per_seq": {
+    "CameraParameter": 0.9086589091525734,
+    "Intersection": 0.7885272511116912,
+    "LightSwitch": 0.8821455894784132
+   },
+   "mean": 0.8597772499142259
+  },
+  {
+   "system": "PSPNet alone",
+   "per_seq": {
+    "CameraParameter": 0.7518401124226141,
+    "Intersection": 0.5145261525993762,
+    "LightSwitch": 0.6130184209506435
+   },
+   "mean": 0.6264615619908779
+  },
+  {
+   "system": "CPB + PSPNet: Liang framework, our re-impl.",
+   "per_seq": {
+    "CameraParameter": 0.8000416763222552,
+    "Intersection": 0.720942429801075,
+    "LightSwitch": 0.6021637756701996
+   },
+   "mean": 0.7077159605978434
+  },
+  {
+   "system": "CPB + PSPNet: Liang framework (block repl.), our re-impl.",
+   "per_seq": {
+    "CameraParameter": 0.7671075494448353,
+    "Intersection": 0.53993174659968,
+    "LightSwitch": 0.6092554411914446
+   },
+   "mean": 0.6387649124119866
+  },
+  {
+   "system": "**CPB + PSPNet: framework + arbiter (ours)**",
+   "per_seq": {
+    "CameraParameter": 0.8386027163922991,
+    "Intersection": 0.721268257854911,
+    "LightSwitch": 0.7024412678552342
+   },
+   "mean": 0.7541040807008148
+  },
+  {
+   "system": "CPB + PSPNet: oracle arbiter (ceiling)",
+   "per_seq": {
+    "CameraParameter": 0.914639047820222,
+    "Intersection": 0.7834039493539681,
+    "LightSwitch": 0.885060106882599
+   },
+   "mean": 0.8610343680189296
+  },
+  {
+   "system": "SemanticBGS rules on CPB + DeepLabV3+",
+   "per_seq": {
+    "CameraParameter": 0.8203109738927482,
+    "Intersection": 0.6836513729999611,
+    "LightSwitch": 0.6551441715019507
+   },
+   "mean": 0.71970217279822
+  },
+  {
+   "system": "SemanticBGS rules on SuBSENSE + DeepLabV3+",
+   "per_seq": {
+    "CameraParameter": 0.8516985706876237,
+    "Intersection": 0.4437553046923428,
+    "LightSwitch": 0.822486898401635
+   },
+   "mean": 0.7059802579272004
+  },
+  {
+   "system": "SemanticBGS rules on CPB + PSPNet",
+   "per_seq": {
+    "CameraParameter": 0.8260981433616745,
+    "Intersection": 0.6871361246903668,
+    "LightSwitch": 0.6553373326456238
+   },
+   "mean": 0.722857200232555
+  },
+  {
+   "system": "SemanticBGS rules on SuBSENSE + PSPNet",
+   "per_seq": {
+    "CameraParameter": 0.8520669163008286,
+    "Intersection": 0.4433930326678248,
+    "LightSwitch": 0.8275327540057135
+   },
+   "mean": 0.7076642343247891
+  },
+  {
+   "system": "CPB + DeepLabV3+: minimal learned fusion (logistic on CPB vote, CPB score, guidance prob.)",
+   "per_seq": {
+    "CameraParameter": 0.8387601447127908,
+    "Intersection": 0.7133586171594665,
+    "LightSwitch": 0.6591003318824429
+   },
+   "mean": 0.7370730312515668
+  },
+  {
+   "system": "SuBSENSE (BGSLibrary)",
+   "per_seq": {
+    "CameraParameter": 0.7659658310076845,
+    "Intersection": 0.43891296659080997,
+    "LightSwitch": 0.8110256219238217
+   },
+   "mean": 0.6719681398407721
+  },
+  {
+   "system": "PAWCS (BGSLibrary)",
+   "per_seq": {
+    "CameraParameter": 0.5259291561954084,
+    "Intersection": 0.26108979229092466,
+    "LightSwitch": 0.7161732555521337
+   },
+   "mean": 0.5010640680128223
+  },
+  {
+   "system": "LOBSTER (BGSLibrary)",
+   "per_seq": {
+    "CameraParameter": 0.38528298872288536,
+    "Intersection": 0.0922216099936334,
+    "LightSwitch": 0.3343217073173809
+   },
+   "mean": 0.27060876867796657
+  },
+  {
+   "system": "ViBe (BGSLibrary)",
+   "per_seq": {
+    "CameraParameter": 0.34517618404404604,
+    "Intersection": 0.35307256999609843,
+    "LightSwitch": 0.3164158657105783
+   },
+   "mean": 0.33822153991690757
+  },
+  {
+   "system": "GMM (MOG2) (BGSLibrary)",
+   "per_seq": {
+    "CameraParameter": 0.3817803193119665,
+    "Intersection": 0.2416635126857273,
+    "LightSwitch": 0.6966581682259394
+   },
+   "mean": 0.4400340000745444
+  },
+  {
+   "system": "KDE (BGSLibrary)",
+   "per_seq": {
+    "CameraParameter": 0.2033032260469956,
+    "Intersection": 0.39263695467162263,
+    "LightSwitch": 0.18122089926586216
+   },
+   "mean": 0.25905369332816014
+  },
+  {
+   "system": "PBAS (BGSLibrary)",
+   "per_seq": {
+    "CameraParameter": 0.4430049646555982,
+    "Intersection": 0.6114850124597268,
+    "LightSwitch": 0.412614368623157
+   },
+   "mean": 0.4890347819128273
+  },
+  {
+   "system": "ZBS (CVPR 2023), paper parameters",
+   "per_seq": {
+    "CameraParameter": 0.8081387527411971,
+    "Intersection": 0.7305812846364256,
+    "LightSwitch": 0.7933465931658272
+   },
+   "mean": 0.7773555435144832
+  },
+  {
+   "system": "ZBS, CDnet-script group 1 (sensitivity)",
+   "per_seq": {
+    "CameraParameter": 0.862328932465373,
+    "Intersection": 0.7628369868127536,
+    "LightSwitch": 0.8001524098300472
+   },
+   "mean": 0.8084394430360579
+  },
+  {
+   "system": "ZBS, CDnet-script group 2 (sensitivity)",
+   "per_seq": {
+    "CameraParameter": 0.8329295814584412,
+    "Intersection": 0.7626905866020506,
+    "LightSwitch": 0.7738871116079352
+   },
+   "mean": 0.7898357598894757
+  },
+  {
+   "system": "ZBS, CDnet-script group 3 (sensitivity)",
+   "per_seq": {
+    "CameraParameter": 0.4062056993606693,
+    "Intersection": 0.6342695058427165,
+    "LightSwitch": 0.2539140136468005
+   },
+   "mean": 0.4314630729500621
+  }
+ ],
+ "wallflower": [
+  {
+   "system": "CPB (R6, frozen)",
+   "per_seq": {
+    "Bootstrap": 0.4509648426785532,
+    "Camouflage": 0.7447941468832548,
+    "ForegroundAperture": 0.7397042092795575,
+    "LightSwitch": 0.840630989187987,
+    "TimeOfDay": 0.3084337348906347,
+    "WavingTrees": 0.680836931206591
+   },
+   "mean": 0.6275608090210963,
+   "movedobject": 0.9199999999999953
+  },
+  {
+   "system": "DeepLabV3+ alone",
+   "per_seq": {
+    "Bootstrap": 0.8185969281371533,
+    "Camouflage": 0.9862626655774351,
+    "ForegroundAperture": 0.9745395994266843,
+    "LightSwitch": 0.6142887977120111,
+    "TimeOfDay": 0.37473460718250606,
+    "WavingTrees": 0.9803022583979374
+   },
+   "mean": 0.7914541427389546,
+   "movedobject": 0.9999999999999949
+  },
+  {
+   "system": "CPB + DeepLabV3+: Liang framework, our re-impl.",
+   "per_seq": {
+    "Bootstrap": 0.7522550870082363,
+    "Camouflage": 0.9236334404647126,
+    "ForegroundAperture": 0.9398582646503677,
+    "LightSwitch": 0.8400821595746303,
+    "TimeOfDay": 0.3474576270703835,
+    "WavingTrees": 0.9747556310592057
+   },
+   "mean": 0.7963403683045893,
+   "movedobject": 0.920572916666662
+  },
+  {
+   "system": "CPB + DeepLabV3+: Liang framework (block repl.), our re-impl.",
+   "per_seq": {
+    "Bootstrap": 0.7784482758140441,
+    "Camouflage": 0.9852547568724761,
+    "ForegroundAperture": 0.9754230458806818,
+    "LightSwitch": 0.6190989436945862,
+    "TimeOfDay": 0.37216657877192283,
+    "WavingTrees": 0.9804255318648769
+   },
+   "mean": 0.7851361888164314,
+   "movedobject": 0.9955208333333282
+  },
+  {
+   "system": "Liang framework, authors' released code (af 3.5)",
+   "per_seq": {
+    "Bootstrap": 0.5621649220931623,
+    "Camouflage": 0.9795038788887902,
+    "ForegroundAperture": 0.8485161289833495,
+    "LightSwitch": 0.2898795060973602,
+    "TimeOfDay": 0.24371265801998265,
+    "WavingTrees": 0.9797160242907565
+   },
+   "mean": 0.6505821863955669,
+   "movedobject": 0.9266145833333286
+  },
+  {
+   "system": "**CPB + DeepLabV3+: framework + arbiter (ours)**",
+   "per_seq": {
+    "Bootstrap": 0.7787381157688054,
+    "Camouflage": 0.9582250649110922,
+    "ForegroundAperture": 0.9758444216490672,
+    "LightSwitch": 0.776926025249339,
+    "TimeOfDay": 0.5342052313482524,
+    "WavingTrees": 0.9822978722904089
+   },
+   "mean": 0.8343727885361608,
+   "movedobject": 0.9970312499999949
+  },
+  {
+   "system": "CPB + DeepLabV3+: oracle arbiter (ceiling)",
+   "per_seq": {
+    "Bootstrap": 0.8622730054599763,
+    "Camouflage": 0.9970117601196458,
+    "ForegroundAperture": 0.994436014112853,
+    "LightSwitch": 0.9511389897156777,
+    "TimeOfDay": 0.5999027709836335,
+    "WavingTrees": 0.9930081854888646
+   },
+   "mean": 0.8996284543134418,
+   "movedobject": 0.9999999999999949
+  },
+  {
+   "system": "PSPNet alone",
+   "per_seq": {
+    "Bootstrap": 0.7109408258350468,
+    "Camouflage": 0.9773833380547744,
+    "ForegroundAperture": 0.9582761997541421,
+    "LightSwitch": 0.6714490673863188,
+    "TimeOfDay": 0.23327194595839917,
+    "WavingTrees": 0.9774461880985156
+   },
+   "mean": 0.7547945941811994,
+   "movedobject": 0.9999999999999949
+  },
+  {
+   "system": "CPB + PSPNet: Liang framework, our re-impl.",
+   "per_seq": {
+    "Bootstrap": 0.7212408444155605,
+    "Camouflage": 0.9184198845485987,
+    "ForegroundAperture": 0.9279848984872459,
+    "LightSwitch": 0.8353077144836987,
+    "TimeOfDay": 0.3217286914275078,
+    "WavingTrees": 0.973419662584163
+   },
+   "mean": 0.7830169493244625,
+   "movedobject": 0.920572916666662
+  },
+  {
+   "system": "CPB + PSPNet: Liang framework (block repl.), our re-impl.",
+   "per_seq": {
+    "Bootstrap": 0.6748844375488274,
+    "Camouflage": 0.9781279846682355,
+    "ForegroundAperture": 0.9596861205974004,
+    "LightSwitch": 0.6742903818207748,
+    "TimeOfDay": 0.23357664231381742,
+    "WavingTrees": 0.9772629772129638
+   },
+   "mean": 0.7496380906936699,
+   "movedobject": 0.9955208333333282
+  },
+  {
+   "system": "**CPB + PSPNet: framework + arbiter (ours)**",
+   "per_seq": {
+    "Bootstrap": 0.6850467289264728,
+    "Camouflage": 0.9595775133995107,
+    "ForegroundAperture": 0.965414725943459,
+    "LightSwitch": 0.8151851851366765,
+    "TimeOfDay": 0.43058568326279384,
+    "WavingTrees": 0.9781434815647968
+   },
+   "mean": 0.805658886372285,
+   "movedobject": 0.9978124999999949
+  },
+  {
+   "system": "CPB + PSPNet: oracle arbiter (ceiling)",
+   "per_seq": {
+    "Bootstrap": 0.8246684907954839,
+    "Camouflage": 0.9912835248542057,
+    "ForegroundAperture": 0.9931479241740836,
+    "LightSwitch": 0.954239790010735,
+    "TimeOfDay": 0.5435222671667951,
+    "WavingTrees": 0.9916959163954946
+   },
+   "mean": 0.883092985566133,
+   "movedobject": 0.9999999999999949
+  },
+  {
+   "system": "SemanticBGS rules on CPB + DeepLabV3+",
+   "per_seq": {
+    "Bootstrap": 0.505937015963687,
+    "Camouflage": 0.9545853545354213,
+    "ForegroundAperture": 0.7763250057882174,
+    "LightSwitch": 0.7578659370228342,
+    "TimeOfDay": 0.5064039408453336,
+    "WavingTrees": 0.9781808846937171
+   },
+   "mean": 0.7465496898082019,
+   "movedobject": 0.9980729166666615
+  },
+  {
+   "system": "SemanticBGS rules on SuBSENSE + DeepLabV3+",
+   "per_seq": {
+    "Bootstrap": 0.4648002174135786,
+    "Camouflage": 0.9750331000067469,
+    "ForegroundAperture": 0.708014106725736,
+    "LightSwitch": 0.4940058321182526,
+    "TimeOfDay": 0.8515318145619278,
+    "WavingTrees": 0.980141366493241
+   },
+   "mean": 0.7455877395532471,
+   "movedobject": 0.9999479166666615
+  },
+  {
+   "system": "SemanticBGS rules on CPB + PSPNet",
+   "per_seq": {
+    "Bootstrap": 0.4931578946976641,
+    "Camouflage": 0.8365369083667136,
+    "ForegroundAperture": 0.7410276859482893,
+    "LightSwitch": 0.816452760116995,
+    "TimeOfDay": 0.4870096790234256,
+    "WavingTrees": 0.9746149212132198
+   },
+   "mean": 0.7247999748943844,
+   "movedobject": 0.9982291666666615
+  },
+  {
+   "system": "SemanticBGS rules on SuBSENSE + PSPNet",
+   "per_seq": {
+    "Bootstrap": 0.4467907751803089,
+    "Camouflage": 0.9678506246867941,
+    "ForegroundAperture": 0.6733190781173605,
+    "LightSwitch": 0.4539307535258283,
+    "TimeOfDay": 0.7970235634076922,
+    "WavingTrees": 0.9798465300115442
+   },
+   "mean": 0.7197935541549213,
+   "movedobject": 0.9999999999999949
+  },
+  {
+   "system": "CPB + DeepLabV3+: minimal learned fusion (logistic on CPB vote, CPB score, guidance prob.)",
+   "per_seq": {
+    "Bootstrap": 0.6029806987104517,
+    "Camouflage": 0.9306404967972958,
+    "ForegroundAperture": 0.9426086956022519,
+    "LightSwitch": 0.7361427486232728,
+    "TimeOfDay": 0.4892703862229477,
+    "WavingTrees": 0.8641128263276794
+   },
+   "mean": 0.7609593087139831,
+   "movedobject": 0.9432291666666618
+  },
+  {
+   "system": "SuBSENSE (BGSLibrary)",
+   "per_seq": {
+    "Bootstrap": 0.4283719631041893,
+    "Camouflage": 0.9598519361686778,
+    "ForegroundAperture": 0.6704653370835145,
+    "LightSwitch": 0.28950474479300736,
+    "TimeOfDay": 0.8680396643287401,
+    "WavingTrees": 0.9575528440812824
+   },
+   "mean": 0.6956310815932353,
+   "movedobject": 0.9471354166666618
+  },
+  {
+   "system": "PAWCS (BGSLibrary)",
+   "per_seq": {
+    "Bootstrap": 0.6107812870603793,
+    "Camouflage": 0.9681822550687064,
+    "ForegroundAperture": 0.6234951209771635,
+    "LightSwitch": 0.3067797491789571,
+    "TimeOfDay": 0.383759733004638,
+    "WavingTrees": 0.9579100144637723
+   },
+   "mean": 0.6418180266256027,
+   "movedobject": 0.9569791666666617
+  },
+  {
+   "system": "LOBSTER (BGSLibrary)",
+   "per_seq": {
+    "Bootstrap": 0.7562380037889812,
+    "Camouflage": 0.9675225138415414,
+    "ForegroundAperture": 0.7837807730372838,
+    "LightSwitch": 0.24668275027477027,
+    "TimeOfDay": 0.6509433961764192,
+    "WavingTrees": 0.9091346153347709
+   },
+   "mean": 0.7190503420756277,
+   "movedobject": 0.9712499999999951
+  },
+  {
+   "system": "ViBe (BGSLibrary)",
+   "per_seq": {
+    "Bootstrap": 0.4296594981609353,
+    "Camouflage": 0.9102661983519557,
+    "ForegroundAperture": 0.6083835405253121,
+    "LightSwitch": 0.11676546244705507,
+    "TimeOfDay": 0.10899540379771963,
+    "WavingTrees": 0.9265556226305844
+   },
+   "mean": 0.516770954318927,
+   "movedobject": 0.978749999999995
+  },
+  {
+   "system": "GMM (MOG2) (BGSLibrary)",
+   "per_seq": {
+    "Bootstrap": 0.44787039452528155,
+    "Camouflage": 0.10313739631000396,
+    "ForegroundAperture": 0.3270746971802268,
+    "LightSwitch": 0.2731395038416025,
+    "TimeOfDay": 0.3590320765025675,
+    "WavingTrees": 0.8084622781211922
+   },
+   "mean": 0.38645272441347905,
+   "movedobject": 0.9999999999999949
+  },
+  {
+   "system": "KDE (BGSLibrary)",
+   "per_seq": {
+    "Bootstrap": 0.6207243460309295,
+    "Camouflage": 0.9736012422444933,
+    "ForegroundAperture": 0.8220955375949984,
+    "LightSwitch": 0.27611769548610127,
+    "TimeOfDay": 0.33371632832441356,
+    "WavingTrees": 0.8812514100431639
+   },
+   "mean": 0.65125109328735,
+   "movedobject": 0.8921874999999955
+  },
+  {
+   "system": "PBAS (BGSLibrary)",
+   "per_seq": {
+    "Bootstrap": 0.34685165417737907,
+    "Camouflage": 0.8443199087645887,
+    "ForegroundAperture": 0.608205128155127,
+    "LightSwitch": 0.24354688948278158,
+    "TimeOfDay": 0.5908239699933989,
+    "WavingTrees": 0.9359800635402612
+   },
+   "mean": 0.5949546023522561,
+   "movedobject": 0.9999999999999949
+  },
+  {
+   "system": "ZBS (CVPR 2023), paper parameters",
+   "per_seq": {
+    "Bootstrap": 0.705615941982368,
+    "Camouflage": 0.9838678515728664,
+    "ForegroundAperture": 0.8486481630692583,
+    "LightSwitch": 0.49987490614072333,
+    "TimeOfDay": 0.2892650017471051,
+    "WavingTrees": 0.9800703399265496
+   },
+   "mean": 0.7178903674064786,
+   "movedobject": 0.921510416666662
+  },
+  {
+   "system": "ZBS, CDnet-script group 1 (sensitivity)",
+   "per_seq": {
+    "Bootstrap": 0.4262653898405832,
+    "Camouflage": 0.947867298528246,
+    "ForegroundAperture": 0.6667287629905321,
+    "LightSwitch": 0.5604488078124099,
+    "TimeOfDay": 0.4621643612279159,
+    "WavingTrees": 0.9800703399265496
+   },
+   "mean": 0.6739241600543728,
+   "movedobject": 0.9646354166666617
+  },
+  {
+   "system": "ZBS, CDnet-script group 2 (sensitivity)",
+   "per_seq": {
+    "Bootstrap": 0.4042069357259421,
+    "Camouflage": 0.9725864123457033,
+    "ForegroundAperture": 0.013184743333693995,
+    "LightSwitch": 0.5226262097428757,
+    "TimeOfDay": 0.4727744165517864,
+    "WavingTrees": 0.9800703399265496
+   },
+   "mean": 0.5609081762710919,
+   "movedobject": 0.9842187499999949
+  },
+  {
+   "system": "ZBS, CDnet-script group 3 (sensitivity)",
+   "per_seq": {
+    "Bootstrap": 0.693909503630145,
+    "Camouflage": 0.9544752724901472,
+    "ForegroundAperture": 0.5756911459815158,
+    "LightSwitch": 0.4611166120434826,
+    "TimeOfDay": 0.23425668549333784,
+    "WavingTrees": 0.9800703399265496
+   },
+   "mean": 0.6499199265941963,
+   "movedobject": 0.48895833333333083
+  }
+ ],
+ "lasiesta": [
+  {
+   "system": "CPB (R6, frozen, rule A)",
+   "per_category": {
+    "SI": 0.8668041559615716,
+    "CA": 0.8910271066785309,
+    "OC": 0.7873894555636787,
+    "IL": 0.3700997849696249,
+    "MB": 0.8712414300667111,
+    "BS": 0.6009473877730787,
+    "CL": 0.888220579535733,
+    "RA": 0.8812451020299497,
+    "SN": 0.7492981765681251,
+    "SU": 0.7791653545044025
+   },
+   "mean": 0.7685438533651405,
+   "pooled": 0.7337353437534245
+  },
+  {
+   "system": "DeepLabV3+ alone",
+   "per_category": {
+    "SI": 0.9292222588921801,
+    "CA": 0.8782889281742033,
+    "OC": 0.6591752543152034,
+    "IL": 0.9380705313798556,
+    "MB": 0.7614727901948996,
+    "BS": 0.7321127225548785,
+    "CL": 0.6236228298004964,
+    "RA": 0.6040083405247116,
+    "SN": 0.26948005674203274,
+    "SU": 0.18726593649611012
+   },
+   "mean": 0.6582719649074572,
+   "pooled": 0.6479367910917595
+  },
+  {
+   "system": "CPB + DeepLabV3+: Liang framework, our re-impl.",
+   "per_category": {
+    "SI": 0.8908294627546677,
+    "CA": 0.8545861188175364,
+    "OC": 0.7272353885375341,
+    "IL": 0.385102857485483,
+    "MB": 0.8822505028766209,
+    "BS": 0.5872269424337098,
+    "CL": 0.7335189553597647,
+    "RA": 0.7251747766429586,
+    "SN": 0.42104726252195523,
+    "SU": 0.39784066918467553
+   },
+   "mean": 0.6604812936614906,
+   "pooled": 0.596108087686738
+  },
+  {
+   "system": "CPB + DeepLabV3+: Liang framework (block repl.), our re-impl.",
+   "per_category": {
+    "SI": 0.9207754065920578,
+    "CA": 0.8870241968113166,
+    "OC": 0.6505857436107116,
+    "IL": 0.9032975965665878,
+    "MB": 0.7582077496150901,
+    "BS": 0.6876329780686623,
+    "CL": 0.6586073747313012,
+    "RA": 0.6558719333731708,
+    "SN": 0.29705867610860337,
+    "SU": 0.21897359933569127
+   },
+   "mean": 0.6638035254813194,
+   "pooled": 0.6546100835826081
+  },
+  {
+   "system": "**CPB + DeepLabV3+: framework + arbiter (ours)**",
+   "per_category": {
+    "SI": 0.9437406378450766,
+    "CA": 0.9668289073418899,
+    "OC": 0.9100554812342484,
+    "IL": 0.8735965601326237,
+    "MB": 0.9474588641722586,
+    "BS": 0.8626562683639207,
+    "CL": 0.8687446573861992,
+    "RA": 0.8876059035991803,
+    "SN": 0.8716442827105678,
+    "SU": 0.5187329105547028
+   },
+   "mean": 0.8651064473340668,
+   "pooled": 0.8635022170700113
+  },
+  {
+   "system": "CPB + DeepLabV3+: oracle arbiter (ceiling)",
+   "per_category": {
+    "SI": 0.959017274025515,
+    "CA": 0.9752545920645088,
+    "OC": 0.9358515793952964,
+    "IL": 0.951533863155724,
+    "MB": 0.9680846557066245,
+    "BS": 0.9126004199763944,
+    "CL": 0.9506955347566562,
+    "RA": 0.9300193805651419,
+    "SN": 0.9169066157501548,
+    "SU": 0.9150728547016536
+   },
+   "mean": 0.941503677009767,
+   "pooled": 0.9534743398536522
+  },
+  {
+   "system": "PSPNet alone",
+   "per_category": {
+    "SI": 0.9049953422701362,
+    "CA": 0.9388356362881078,
+    "OC": 0.6493727940172218,
+    "IL": 0.9130924075392368,
+    "MB": 0.7567383698139902,
+    "BS": 0.7714819736846472,
+    "CL": 0.6037148695756238,
+    "RA": 0.5748055404376295,
+    "SN": 0.3309397413642686,
+    "SU": 0.1881394028930457
+   },
+   "mean": 0.6632116077883909,
+   "pooled": 0.6677685743964572
+  },
+  {
+   "system": "CPB + PSPNet: Liang framework, our re-impl.",
+   "per_category": {
+    "SI": 0.8900027389732534,
+    "CA": 0.8881537224807061,
+    "OC": 0.7160893710243474,
+    "IL": 0.38376834196507337,
+    "MB": 0.8769611041009239,
+    "BS": 0.651688421290957,
+    "CL": 0.7318814979473498,
+    "RA": 0.7284106214563157,
+    "SN": 0.43312713838469225,
+    "SU": 0.40117826817382307
+   },
+   "mean": 0.6701261225797441,
+   "pooled": 0.610005267464898
+  },
+  {
+   "system": "CPB + PSPNet: Liang framework (block repl.), our re-impl.",
+   "per_category": {
+    "SI": 0.9191358735965353,
+    "CA": 0.9469135263717341,
+    "OC": 0.6605590977978131,
+    "IL": 0.9023088712772618,
+    "MB": 0.7639040761702272,
+    "BS": 0.7655807524261276,
+    "CL": 0.6517179725674487,
+    "RA": 0.6362317730076552,
+    "SN": 0.35918643825814567,
+    "SU": 0.22225955167244935
+   },
+   "mean": 0.6827797933145398,
+   "pooled": 0.6854130267429217
+  },
+  {
+   "system": "**CPB + PSPNet: framework + arbiter (ours)**",
+   "per_category": {
+    "SI": 0.9446319404304193,
+    "CA": 0.969965524057931,
+    "OC": 0.9130723796642441,
+    "IL": 0.8688123107168013,
+    "MB": 0.9512397575882555,
+    "BS": 0.8423185983578827,
+    "CL": 0.9236773445572519,
+    "RA": 0.8993771033236506,
+    "SN": 0.8729999545250032,
+    "SU": 0.8745442948208547
+   },
+   "mean": 0.9060639208042293,
+   "pooled": 0.9203977277029202
+  },
+  {
+   "system": "CPB + PSPNet: oracle arbiter (ceiling)",
+   "per_category": {
+    "SI": 0.9600782067085696,
+    "CA": 0.9760791614145213,
+    "OC": 0.9362441466566281,
+    "IL": 0.9504979880301746,
+    "MB": 0.9692793984979893,
+    "BS": 0.912251517941903,
+    "CL": 0.9534348349728898,
+    "RA": 0.9407098154550929,
+    "SN": 0.9212849764989091,
+    "SU": 0.9151809586178842
+   },
+   "mean": 0.9435041004794563,
+   "pooled": 0.9542903881452315
+  },
+  {
+   "system": "CPB + DeepLabV3+: minimal learned fusion (logistic on CPB vote, CPB score, guidance prob.)",
+   "per_category": {
+    "SI": 0.9230238983943433,
+    "CA": 0.9460108769133289,
+    "OC": 0.8454323100466588,
+    "IL": 0.6137325849393243,
+    "MB": 0.8934523696926351,
+    "BS": 0.7360386169981772,
+    "CL": 0.8564204103777724,
+    "RA": 0.8736150160102767,
+    "SN": 0.7228676904109954,
+    "SU": 0.6120930010112244
+   },
+   "mean": 0.8022686774794735,
+   "pooled": 0.7688988685640903
+  },
+  {
+   "system": "SemanticBGS rules on CPB + DeepLabV3+",
+   "per_category": {
+    "SI": 0.9444364464753967,
+    "CA": 0.9710713331760819,
+    "OC": 0.9238010123806331,
+    "IL": 0.8060492179142585,
+    "MB": 0.9316420352179369,
+    "BS": 0.8806503039876326,
+    "CL": 0.9284960262844524,
+    "RA": 0.903778980016479,
+    "SN": 0.8341117932050475,
+    "SU": 0.8756300403201428
+   },
+   "mean": 0.8999667188978062,
+   "pooled": 0.9029191822212679
+  },
+  {
+   "system": "SemanticBGS rules on SuBSENSE + DeepLabV3+",
+   "per_category": {
+    "SI": 0.9441154220508005,
+    "CA": 0.9742858680505155,
+    "OC": 0.9080041316138366,
+    "IL": 0.8238993298137707,
+    "MB": 0.9414679036158415,
+    "BS": 0.7746166679863116,
+    "CL": 0.9447293146626913,
+    "RA": 0.8985921066541567,
+    "SN": 0.835439853152228,
+    "SU": 0.91583055253985
+   },
+   "mean": 0.8960981150140002,
+   "pooled": 0.9230494587062102
+  },
+  {
+   "system": "SemanticBGS rules on CPB + PSPNet",
+   "per_category": {
+    "SI": 0.9440615236771075,
+    "CA": 0.9626632372757004,
+    "OC": 0.9133488692685197,
+    "IL": 0.739717590063997,
+    "MB": 0.9358870074065853,
+    "BS": 0.884606567524199,
+    "CL": 0.9228327074691898,
+    "RA": 0.9001017674971735,
+    "SN": 0.8236667243737597,
+    "SU": 0.8773727768788921
+   },
+   "mean": 0.8904258771435123,
+   "pooled": 0.8895447310277245
+  },
+  {
+   "system": "SemanticBGS rules on SuBSENSE + PSPNet",
+   "per_category": {
+    "SI": 0.9402192021698949,
+    "CA": 0.973082368731411,
+    "OC": 0.9112074191044659,
+    "IL": 0.7809985926147146,
+    "MB": 0.9404400510746898,
+    "BS": 0.7618228173563188,
+    "CL": 0.939759052857143,
+    "RA": 0.9015678261620592,
+    "SN": 0.8144695567548048,
+    "SU": 0.9178807690404213
+   },
+   "mean": 0.8881447655865923,
+   "pooled": 0.9159847731047233
+  },
+  {
+   "system": "SuBSENSE (BGSLibrary)",
+   "per_category": {
+    "SI": 0.9228119312807952,
+    "CA": 0.8679356580469821,
+    "OC": 0.8973698773049983,
+    "IL": 0.6021171539597449,
+    "MB": 0.9229250242249867,
+    "BS": 0.6336159682233458,
+    "CL": 0.9188232523666613,
+    "RA": 0.8774683936915783,
+    "SN": 0.731203320868475,
+    "SU": 0.8600714398889826
+   },
+   "mean": 0.823434201985655,
+   "pooled": 0.8290059829572785
+  },
+  {
+   "system": "PAWCS (BGSLibrary)",
+   "per_category": {
+    "SI": 0.9285369786137851,
+    "CA": 0.8440834874107777,
+    "OC": 0.9085980055945385,
+    "IL": 0.6776205317830771,
+    "MB": 0.9028282908317427,
+    "BS": 0.8696319497392151,
+    "CL": 0.9666903239653872,
+    "RA": 0.9047855850844163,
+    "SN": 0.5953991998115629,
+    "SU": 0.8383711853267429
+   },
+   "mean": 0.8436545538161246,
+   "pooled": 0.8637333875867167
+  },
+  {
+   "system": "LOBSTER (BGSLibrary)",
+   "per_category": {
+    "SI": 0.9097142190412608,
+    "CA": 0.8403180386843538,
+    "OC": 0.9046467760869363,
+    "IL": 0.4154998583788505,
+    "MB": 0.8853142501149676,
+    "BS": 0.4746407717222719,
+    "CL": 0.8613460438905846,
+    "RA": 0.8579486739362325,
+    "SN": 0.6304210551848762,
+    "SU": 0.8378745089405712
+   },
+   "mean": 0.7617724195980905,
+   "pooled": 0.7520905366399646
+  },
+  {
+   "system": "ViBe (BGSLibrary)",
+   "per_category": {
+    "SI": 0.8205601377168608,
+    "CA": 0.6710905531684241,
+    "OC": 0.8975769699792843,
+    "IL": 0.37571318032271084,
+    "MB": 0.705947642806247,
+    "BS": 0.39766846412783563,
+    "CL": 0.85876237514383,
+    "RA": 0.8489388197004095,
+    "SN": 0.6291280805460497,
+    "SU": 0.7633645146716075
+   },
+   "mean": 0.696875073818326,
+   "pooled": 0.6731434958350948
+  },
+  {
+   "system": "GMM (MOG2) (BGSLibrary)",
+   "per_category": {
+    "SI": 0.4745111734935981,
+    "CA": 0.16094959950522425,
+    "OC": 0.5725353539723628,
+    "IL": 0.4196622166106727,
+    "MB": 0.18486007951832503,
+    "BS": 0.5804219895430474,
+    "CL": 0.46645875423410255,
+    "RA": 0.6286579882193495,
+    "SN": 0.1912710387940016,
+    "SU": 0.6558752162940338
+   },
+   "mean": 0.4335203410184718,
+   "pooled": 0.42999475358005873
+  },
+  {
+   "system": "KDE (BGSLibrary)",
+   "per_category": {
+    "SI": 0.8266646934050376,
+    "CA": 0.765125787235188,
+    "OC": 0.7763309769179558,
+    "IL": 0.4063112859104294,
+    "MB": 0.8621370180823913,
+    "BS": 0.373298321000206,
+    "CL": 0.8735602785761447,
+    "RA": 0.7907109238206651,
+    "SN": 0.552118333866896,
+    "SU": 0.6122060750811559
+   },
+   "mean": 0.683846369389607,
+   "pooled": 0.6439180947319737
+  },
+  {
+   "system": "PBAS (BGSLibrary)",
+   "per_category": {
+    "SI": 0.8936974814708707,
+    "CA": 0.6354987029051973,
+    "OC": 0.8472648194717027,
+    "IL": 0.3831455607800926,
+    "MB": 0.6287803464494374,
+    "BS": 0.513245075854164,
+    "CL": 0.9006043176130036,
+    "RA": 0.8871637573918796,
+    "SN": 0.6946114242783676,
+    "SU": 0.8096684740672339
+   },
+   "mean": 0.719367996028195,
+   "pooled": 0.722967603810227
+  },
+  {
+   "system": "ZBS (CVPR 2023), paper parameters",
+   "per_category": {
+    "SI": 0.9514219943703711,
+    "CA": 0.8606856090796315,
+    "OC": 0.8776674702216637,
+    "IL": 0.9175700188592228,
+    "MB": 0.7453655141821185,
+    "BS": 0.9458499583133255,
+    "CL": 0.9682699310512735,
+    "RA": 0.9200317189109433,
+    "SN": 0.9035034331809901,
+    "SU": 0.9556918476370606
+   },
+   "mean": 0.9046057495806601,
+   "pooled": 0.9165353977919304
+  },
+  {
+   "system": "ZBS, CDnet-script group 1 (sensitivity)",
+   "per_category": {
+    "SI": 0.8723896079854399,
+    "CA": 0.972130028097054,
+    "OC": 0.8741439882116879,
+    "IL": 0.9261833603405822,
+    "MB": 0.933864811082697,
+    "BS": 0.9338559926517975,
+    "CL": 0.9724075516493484,
+    "RA": 0.9210201993733413,
+    "SN": 0.9484809759515536,
+    "SU": 0.9682102764701659
+   },
+   "mean": 0.9322686791813668,
+   "pooled": 0.9461230833635398
+  },
+  {
+   "system": "ZBS, CDnet-script group 2 (sensitivity)",
+   "per_category": {
+    "SI": 0.8724532834494341,
+    "CA": 0.971912813573717,
+    "OC": 0.8751248156636897,
+    "IL": 0.9222274733779867,
+    "MB": 0.9315836157862635,
+    "BS": 0.9354986512021873,
+    "CL": 0.970469385854293,
+    "RA": 0.9210201993733413,
+    "SN": 0.946034847084809,
+    "SU": 0.9650867491263418
+   },
+   "mean": 0.9311411834492063,
+   "pooled": 0.9451700096813054
+  },
+  {
+   "system": "ZBS, CDnet-script group 3 (sensitivity)",
+   "per_category": {
+    "SI": 0.7022598918298726,
+    "CA": 0.6528113341232704,
+    "OC": 0.6513992276522589,
+    "IL": 0.31899227179053824,
+    "MB": 0.44437057768967403,
+    "BS": 0.6049139656394963,
+    "CL": 0.4336353404090244,
+    "RA": 0.5816168511455657,
+    "SN": 0.34488941548687985,
+    "SU": 0.2229674314079788
+   },
+   "mean": 0.4957856307174559,
+   "pooled": 0.4298856369565579
+  }
+ ]
+}

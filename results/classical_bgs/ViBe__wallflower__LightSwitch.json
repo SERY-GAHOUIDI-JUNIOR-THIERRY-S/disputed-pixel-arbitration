@@ -1,0 +1,1 @@
+{"method": "ViBe", "dataset": "wallflower", "sequence": "LightSwitch", "result": {"score": 0.11676546244705507, "P": 0.07096730337842383, "R": 0.3292336802270473, "tp": 1044, "fp": 13667, "fn": 2127, "tn": 2362}}

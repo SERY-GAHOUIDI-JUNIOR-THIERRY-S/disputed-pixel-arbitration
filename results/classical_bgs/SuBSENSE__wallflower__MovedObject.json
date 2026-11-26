@@ -1,0 +1,1 @@
+{"method": "SuBSENSE", "dataset": "wallflower", "sequence": "MovedObject", "result": {"score": 0.9471354166666618, "P": 0.0, "R": 0.0, "tp": 0, "fp": 1015, "fn": 0, "tn": 18185}}

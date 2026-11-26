@@ -1,0 +1,1 @@
+{"method": "ViBe", "dataset": "wallflower", "sequence": "TimeOfDay", "result": {"score": 0.10899540379771963, "P": 0.9764705882341453, "R": 0.05771905424199877, "tp": 83, "fp": 2, "fn": 1355, "tn": 17760}}

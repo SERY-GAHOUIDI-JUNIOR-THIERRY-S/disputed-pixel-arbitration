@@ -1,0 +1,1 @@
+{"method": "ViBe", "dataset": "wallflower", "sequence": "WavingTrees", "result": {"score": 0.9265556226305844, "P": 0.9399404657678, "R": 0.9135466303607741, "tp": 5368, "fp": 343, "fn": 508, "tn": 12981}}

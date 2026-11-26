@@ -1,0 +1,1 @@
+{"method": "ViBe", "dataset": "wallflower", "sequence": "Bootstrap", "result": {"score": 0.4296594981609353, "P": 0.5711733174508296, "R": 0.3443447037701851, "tp": 959, "fp": 720, "fn": 1826, "tn": 15695}}

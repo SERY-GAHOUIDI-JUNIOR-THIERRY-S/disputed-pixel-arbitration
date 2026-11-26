@@ -1,0 +1,1 @@
+{"method": "PixelBasedAdaptiveSegmenter", "dataset": "wallflower", "sequence": "LightSwitch", "result": {"score": 0.24354688948278158, "P": 0.14279492623441592, "R": 0.8271838536738938, "tp": 2623, "fp": 15746, "fn": 548, "tn": 283}}

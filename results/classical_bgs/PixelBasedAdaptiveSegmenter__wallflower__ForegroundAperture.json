@@ -1,0 +1,1 @@
+{"method": "PixelBasedAdaptiveSegmenter", "dataset": "wallflower", "sequence": "ForegroundAperture", "result": {"score": 0.608205128155127, "P": 0.6174510620574631, "R": 0.5992320129345069, "tp": 2965, "fp": 1837, "fn": 1983, "tn": 12415}}

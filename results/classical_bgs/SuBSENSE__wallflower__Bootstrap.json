@@ -1,0 +1,1 @@
+{"method": "SuBSENSE", "dataset": "wallflower", "sequence": "Bootstrap", "result": {"score": 0.4283719631041893, "P": 0.9635678391958588, "R": 0.27540394973069027, "tp": 767, "fp": 29, "fn": 2018, "tn": 16386}}

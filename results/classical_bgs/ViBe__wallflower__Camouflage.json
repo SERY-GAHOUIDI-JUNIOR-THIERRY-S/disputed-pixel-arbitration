@@ -1,0 +1,1 @@
+{"method": "ViBe", "dataset": "wallflower", "sequence": "Camouflage", "result": {"score": 0.9102661983519557, "P": 0.9672255273120501, "R": 0.8596423764660559, "tp": 8942, "fp": 303, "fn": 1460, "tn": 8495}}

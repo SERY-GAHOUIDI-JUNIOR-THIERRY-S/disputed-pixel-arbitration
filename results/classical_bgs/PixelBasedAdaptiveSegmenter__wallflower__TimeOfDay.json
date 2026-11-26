@@ -1,0 +1,1 @@
+{"method": "PixelBasedAdaptiveSegmenter", "dataset": "wallflower", "sequence": "TimeOfDay", "result": {"score": 0.5908239699933989, "P": 0.904011461317922, "R": 0.4388038942976051, "tp": 631, "fp": 67, "fn": 807, "tn": 17695}}

@@ -1,0 +1,1 @@
+{"method": "SuBSENSE", "dataset": "wallflower", "sequence": "Camouflage", "result": {"score": 0.9598519361686778, "P": 0.9477975632614719, "R": 0.9722168813689581, "tp": 10113, "fp": 557, "fn": 289, "tn": 8241}}

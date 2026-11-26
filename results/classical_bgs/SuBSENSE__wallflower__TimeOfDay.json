@@ -1,0 +1,1 @@
+{"method": "SuBSENSE", "dataset": "wallflower", "sequence": "TimeOfDay", "result": {"score": 0.8680396643287401, "P": 0.9611486486485674, "R": 0.7913769123782481, "tp": 1138, "fp": 46, "fn": 300, "tn": 17716}}
