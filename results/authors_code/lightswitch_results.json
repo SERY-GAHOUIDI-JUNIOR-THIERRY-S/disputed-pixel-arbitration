@@ -1,0 +1,298 @@
+{
+ "af3.5_guidance": {
+  "cpb_or_stage1": {
+   "256": {
+    "pooled": 0.0774,
+    "thesis_fg": 0.6217,
+    "P_fg": 0.5358,
+    "R_fg": 0.7402,
+    "thesis_all": 0.195,
+    "meanF_fg": 0.5281
+   },
+   "native": {
+    "pooled": 0.0772,
+    "thesis_fg": 0.6204,
+    "P_fg": 0.534,
+    "R_fg": 0.7402,
+    "thesis_all": 0.1977,
+    "meanF_fg": 0.5261
+   }
+  },
+  "stage2": {
+   "256": {
+    "pooled": 0.5727,
+    "thesis_fg": 0.6657,
+    "P_fg": 0.6927,
+    "R_fg": 0.6408,
+    "thesis_all": 0.1714,
+    "meanF_fg": 0.6508
+   },
+   "native": {
+    "pooled": 0.5719,
+    "thesis_fg": 0.668,
+    "P_fg": 0.6936,
+    "R_fg": 0.6443,
+    "thesis_all": 0.1717,
+    "meanF_fg": 0.653
+   }
+  },
+  "final": {
+   "256": {
+    "pooled": 0.5255,
+    "thesis_fg": 0.6566,
+    "P_fg": 0.6435,
+    "R_fg": 0.6704,
+    "thesis_all": 0.1626,
+    "meanF_fg": 0.6498
+   },
+   "native": {
+    "pooled": 0.5257,
+    "thesis_fg": 0.6601,
+    "P_fg": 0.6472,
+    "R_fg": 0.6736,
+    "thesis_all": 0.1635,
+    "meanF_fg": 0.6527
+   }
+  },
+  "guidance": {
+   "256": {
+    "pooled": 0.4674,
+    "thesis_fg": 0.6209,
+    "P_fg": 0.5715,
+    "R_fg": 0.6797,
+    "thesis_all": 0.1458,
+    "meanF_fg": 0.6163
+   },
+   "native": {
+    "pooled": 0.4704,
+    "thesis_fg": 0.6239,
+    "P_fg": 0.5739,
+    "R_fg": 0.6836,
+    "thesis_all": 0.1464,
+    "meanF_fg": 0.6193
+   }
+  }
+ },
+ "af3.5_zero": {
+  "cpb_or_stage1": {
+   "256": {
+    "pooled": 0.0733,
+    "thesis_fg": 0.6086,
+    "P_fg": 0.5313,
+    "R_fg": 0.7123,
+    "thesis_all": 0.1926,
+    "meanF_fg": 0.5162
+   },
+   "native": {
+    "pooled": 0.073,
+    "thesis_fg": 0.6069,
+    "P_fg": 0.5292,
+    "R_fg": 0.7115,
+    "thesis_all": 0.1951,
+    "meanF_fg": 0.5136
+   }
+  },
+  "stage2": {
+   "256": {
+    "pooled": 0.0212,
+    "thesis_fg": 0.0279,
+    "P_fg": 0.4364,
+    "R_fg": 0.0144,
+    "thesis_all": 0.0251,
+    "meanF_fg": 0.0271
+   },
+   "native": {
+    "pooled": 0.0206,
+    "thesis_fg": 0.0275,
+    "P_fg": 0.4362,
+    "R_fg": 0.0142,
+    "thesis_all": 0.0248,
+    "meanF_fg": 0.0267
+   }
+  },
+  "final": {
+   "256": {
+    "pooled": 0.0079,
+    "thesis_fg": 0.0091,
+    "P_fg": 0.472,
+    "R_fg": 0.0046,
+    "thesis_all": 0.009,
+    "meanF_fg": 0.0091
+   },
+   "native": {
+    "pooled": 0.0081,
+    "thesis_fg": 0.0099,
+    "P_fg": 0.4765,
+    "R_fg": 0.005,
+    "thesis_all": 0.0097,
+    "meanF_fg": 0.0098
+   }
+  },
+  "guidance": {
+   "256": {
+    "pooled": 0.0,
+    "thesis_fg": 0.0,
+    "P_fg": 0.0,
+    "R_fg": 0.0,
+    "thesis_all": 0.0,
+    "meanF_fg": 0.0
+   },
+   "native": {
+    "pooled": 0.0,
+    "thesis_fg": 0.0,
+    "P_fg": 0.0,
+    "R_fg": 0.0,
+    "thesis_all": 0.0,
+    "meanF_fg": 0.0
+   }
+  }
+ },
+ "af2.5_guidance": {
+  "cpb_or_stage1": {
+   "256": {
+    "pooled": 0.071,
+    "thesis_fg": 0.6148,
+    "P_fg": 0.5082,
+    "R_fg": 0.778,
+    "thesis_all": 0.136,
+    "meanF_fg": 0.5222
+   },
+   "native": {
+    "pooled": 0.0709,
+    "thesis_fg": 0.6144,
+    "P_fg": 0.5069,
+    "R_fg": 0.7797,
+    "thesis_all": 0.1383,
+    "meanF_fg": 0.5208
+   }
+  },
+  "stage2": {
+   "256": {
+    "pooled": 0.5224,
+    "thesis_fg": 0.6526,
+    "P_fg": 0.6435,
+    "R_fg": 0.662,
+    "thesis_all": 0.1614,
+    "meanF_fg": 0.643
+   },
+   "native": {
+    "pooled": 0.5234,
+    "thesis_fg": 0.6564,
+    "P_fg": 0.6465,
+    "R_fg": 0.6666,
+    "thesis_all": 0.1622,
+    "meanF_fg": 0.6464
+   }
+  },
+  "final": {
+   "256": {
+    "pooled": 0.4999,
+    "thesis_fg": 0.6476,
+    "P_fg": 0.6221,
+    "R_fg": 0.6753,
+    "thesis_all": 0.1571,
+    "meanF_fg": 0.6404
+   },
+   "native": {
+    "pooled": 0.5014,
+    "thesis_fg": 0.6518,
+    "P_fg": 0.6267,
+    "R_fg": 0.6789,
+    "thesis_all": 0.1582,
+    "meanF_fg": 0.6439
+   }
+  },
+  "guidance": {
+   "256": {
+    "pooled": 0.4674,
+    "thesis_fg": 0.6209,
+    "P_fg": 0.5715,
+    "R_fg": 0.6797,
+    "thesis_all": 0.1458,
+    "meanF_fg": 0.6163
+   },
+   "native": {
+    "pooled": 0.4704,
+    "thesis_fg": 0.6239,
+    "P_fg": 0.5739,
+    "R_fg": 0.6836,
+    "thesis_all": 0.1464,
+    "meanF_fg": 0.6193
+   }
+  }
+ },
+ "af2.5_zero": {
+  "cpb_or_stage1": {
+   "256": {
+    "pooled": 0.0681,
+    "thesis_fg": 0.6031,
+    "P_fg": 0.5016,
+    "R_fg": 0.7561,
+    "thesis_all": 0.1341,
+    "meanF_fg": 0.5115
+   },
+   "native": {
+    "pooled": 0.0679,
+    "thesis_fg": 0.6026,
+    "P_fg": 0.5004,
+    "R_fg": 0.7572,
+    "thesis_all": 0.1363,
+    "meanF_fg": 0.51
+   }
+  },
+  "stage2": {
+   "256": {
+    "pooled": 0.0161,
+    "thesis_fg": 0.025,
+    "P_fg": 0.3156,
+    "R_fg": 0.013,
+    "thesis_all": 0.0205,
+    "meanF_fg": 0.024
+   },
+   "native": {
+    "pooled": 0.016,
+    "thesis_fg": 0.026,
+    "P_fg": 0.3139,
+    "R_fg": 0.0136,
+    "thesis_all": 0.0212,
+    "meanF_fg": 0.025
+   }
+  },
+  "final": {
+   "256": {
+    "pooled": 0.0042,
+    "thesis_fg": 0.0053,
+    "P_fg": 0.2651,
+    "R_fg": 0.0027,
+    "thesis_all": 0.0052,
+    "meanF_fg": 0.0053
+   },
+   "native": {
+    "pooled": 0.0041,
+    "thesis_fg": 0.006,
+    "P_fg": 0.2521,
+    "R_fg": 0.003,
+    "thesis_all": 0.0059,
+    "meanF_fg": 0.0059
+   }
+  },
+  "guidance": {
+   "256": {
+    "pooled": 0.0,
+    "thesis_fg": 0.0,
+    "P_fg": 0.0,
+    "R_fg": 0.0,
+    "thesis_all": 0.0,
+    "meanF_fg": 0.0
+   },
+   "native": {
+    "pooled": 0.0,
+    "thesis_fg": 0.0,
+    "P_fg": 0.0,
+    "R_fg": 0.0,
+    "thesis_all": 0.0,
+    "meanF_fg": 0.0
+   }
+  }
+ }
+}

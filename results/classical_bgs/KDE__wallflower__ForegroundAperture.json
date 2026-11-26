@@ -1,0 +1,1 @@
+{"method": "KDE", "dataset": "wallflower", "sequence": "ForegroundAperture", "result": {"score": 0.8220955375949984, "P": 0.8002296211251282, "R": 0.8451899757477598, "tp": 4182, "fp": 1044, "fn": 766, "tn": 13208}}

@@ -1,0 +1,1 @@
+{"method": "KDE", "dataset": "wallflower", "sequence": "TimeOfDay", "result": {"score": 0.33371632832441356, "P": 0.2043784206411227, "R": 0.9089012517384625, "tp": 1307, "fp": 5088, "fn": 131, "tn": 12674}}

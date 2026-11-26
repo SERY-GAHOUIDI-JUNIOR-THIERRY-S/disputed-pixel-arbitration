@@ -1,0 +1,1 @@
+{"method": "KDE", "dataset": "wallflower", "sequence": "LightSwitch", "result": {"score": 0.27611769548610127, "P": 0.16149234557327824, "R": 0.9514348785871665, "tp": 3017, "fp": 15665, "fn": 154, "tn": 364}}
