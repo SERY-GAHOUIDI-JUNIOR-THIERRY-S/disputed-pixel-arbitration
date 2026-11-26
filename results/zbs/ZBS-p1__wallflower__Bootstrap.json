@@ -1,0 +1,1 @@
+{"method": "ZBS-p1", "dataset": "wallflower", "sequence": "Bootstrap", "params": {"conf": 0.3, "delta": 0.2, "fore": 0.3, "move": 0.5, "noiof": true, "max_age": 100, "min_hits": 5, "iou": 0.3}, "result": {"score": 0.4262653898405832, "P": 0.8954022988504717, "R": 0.2797127468581587, "tp": 779, "fp": 91, "fn": 2006, "tn": 16324}}

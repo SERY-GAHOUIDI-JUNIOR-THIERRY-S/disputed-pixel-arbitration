@@ -1,0 +1,72 @@
+{
+ "DL|CPB": {
+  "diff": 0.20681197951506447,
+  "wins": 5,
+  "losses": 1
+ },
+ "DL|guidance": {
+  "diff": 0.04291864579720626,
+  "wins": 4,
+  "losses": 2
+ },
+ "DL|Liang framework": {
+  "diff": 0.03803242023157146,
+  "wins": 5,
+  "losses": 1
+ },
+ "DL|authors' code": {
+  "diff": 0.18379060214059395,
+  "wins": 5,
+  "losses": 1
+ },
+ "DL|Minimal fusion": {
+  "diff": 0.07341347982217761,
+  "wins": 6,
+  "losses": 0
+ },
+ "DL|SemanticBGS on CPB": {
+  "diff": 0.08782309872795906,
+  "wins": 6,
+  "losses": 0
+ },
+ "DL|LOBSTER": {
+  "diff": 0.11532244646053302,
+  "wins": 4,
+  "losses": 2
+ },
+ "DL|SuBSENSE": {
+  "diff": 0.13874170694292556,
+  "wins": 4,
+  "losses": 2
+ },
+ "PSP|CPB": {
+  "diff": 0.17809807735118857,
+  "wins": 5,
+  "losses": 1
+ },
+ "PSP|guidance": {
+  "diff": 0.05086429219108545,
+  "wins": 4,
+  "losses": 2
+ },
+ "PSP|Liang framework": {
+  "diff": 0.022641937047822514,
+  "wins": 4,
+  "losses": 2
+ },
+ "PSP|SemanticBGS on CPB": {
+  "diff": 0.08085891147790038,
+  "wins": 4,
+  "losses": 2
+ },
+ "PSP|LOBSTER": {
+  "diff": 0.08660854429665714,
+  "wins": 3,
+  "losses": 3
+ },
+ "PSP|SuBSENSE": {
+  "diff": 0.11002780477904966,
+  "wins": 4,
+  "losses": 2
+ }
+}
