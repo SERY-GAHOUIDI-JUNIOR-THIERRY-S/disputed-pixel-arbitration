@@ -1,0 +1,7 @@
+{"features": ["cpb_says_fg","cpb_score","supp_norm","chan_votes","resid_z","rpb","spb","spq","guid_prob","guid_prob_loc","guid_bdist","guid_blob","cpb_occ","guid_occ","disagree_occ","cpb_blob","frame_cpb_frac","frame_guid_frac","frame_dis_frac","frame_iou","frame_luma","frame_dluma","motion","cpb_prev_occ","guid_prev"],
+ "hidden": [64,64], "threshold": 0.725, "best_epoch": 2, "seed": 101,
+ "val_F": 0.7667503230848725, "val_F_mean": 0.7542197340056321, "val_F_sd": 0.008961798520213848, "val_thesis": 0.7883724535632005,
+ "split": {"seed": 2026, "rule": "1 validation video per category (PTZ excluded), rest training",
+  "val": ["badWeather__skating","baseline__office","cameraJitter__sidewalk","dynamicBackground__boats","intermittentObjectMotion__winterDriveway","lowFramerate__tramCrossroad_1fps","nightVideos__winterStreet","shadow__cubicle","thermal__park","turbulence__turbulence3"], "created": "2026-11-16 21:58:57"},
+ "settings": {"lr": 0.002, "batch": 4096, "wd": 1e-05, "epochs": 30, "patience": 4, "cap": 40000},
+ "version": "arb1", "trained_on": "train + validation videos", "epochs": 1, "guidance": "pspnet_r50_ade20k"}

@@ -1,0 +1,31 @@
+{
+ "features": [
+  "cpb_says_fg",
+  "cpb_score",
+  "guid_prob"
+ ],
+ "hidden": [],
+ "threshold": 0.475,
+ "best_epoch": 4,
+ "seed": 100,
+ "val_F": 0.6367868923802859,
+ "val_F_mean": 0.6329417416878744,
+ "val_F_sd": 0.0040013795101305856,
+ "val_thesis": 0.6740354419874021,
+ "split": {
+  "seed": 2026,
+  "created": "2026-11-16 21:58:57"
+ },
+ "settings": {
+  "lr": 0.002,
+  "batch": 4096,
+  "wd": 1e-05,
+  "epochs": 30,
+  "patience": 4,
+  "cap": 40000
+ },
+ "version": "arb1",
+ "trained_on": "train + validation videos",
+ "guidance": "deeplabv3plus_r50_ade20k",
+ "epochs": 4
+}

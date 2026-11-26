@@ -1,0 +1,2 @@
+{"features": ["cpb_says_fg","cpb_score","supp_norm","chan_votes","resid_z","rpb","spb","spq","guid_prob","guid_prob_loc","guid_bdist","guid_blob","cpb_occ","guid_occ","disagree_occ","cpb_blob","frame_cpb_frac","frame_guid_frac","frame_dis_frac","frame_iou","frame_luma","frame_dluma","motion","cpb_prev_occ","guid_prev"],
+ "hidden": [64, 64], "threshold": 0.675, "best_epoch": 5, "seed": 102, "val_F_mean": 0.7479831435762149, "trained_on": "train + validation videos", "epochs": 2, "version": "arb1"}
