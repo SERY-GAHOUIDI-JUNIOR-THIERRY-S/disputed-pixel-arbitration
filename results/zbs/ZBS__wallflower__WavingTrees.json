@@ -1,0 +1,1 @@
+{"method": "ZBS", "dataset": "wallflower", "sequence": "WavingTrees", "params": {"conf": 0.4, "delta": 0.2, "fore": 0.8, "move": 0.5, "noiof": false, "max_age": 20, "min_hits": 5, "iou": 0.4}, "result": {"score": 0.9800703399265496, "P": 0.9647213979558034, "R": 0.9959155888359259, "tp": 5852, "fp": 214, "fn": 24, "tn": 13110}}

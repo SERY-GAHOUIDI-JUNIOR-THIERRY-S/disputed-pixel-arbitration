@@ -1,0 +1,1 @@
+{"method": "ZBS-p3", "dataset": "wallflower", "sequence": "TimeOfDay", "params": {"conf": 0.4, "delta": 0.2, "fore": 1.0, "move": 0.0, "noiof": false, "max_age": 20, "min_hits": 5, "iou": 0.4}, "result": {"score": 0.23425668549333784, "P": 0.1358532518065577, "R": 0.8497913769123192, "tp": 1222, "fp": 7773, "fn": 216, "tn": 9989}}

@@ -1,0 +1,1 @@
+{"method": "ZBS-p3", "dataset": "wallflower", "sequence": "MovedObject", "params": {"conf": 0.4, "delta": 0.2, "fore": 1.0, "move": 0.0, "noiof": false, "max_age": 20, "min_hits": 5, "iou": 0.4}, "result": {"score": 0.48895833333333083, "P": 0.0, "R": 0.0, "tp": 0, "fp": 9812, "fn": 0, "tn": 9388}}

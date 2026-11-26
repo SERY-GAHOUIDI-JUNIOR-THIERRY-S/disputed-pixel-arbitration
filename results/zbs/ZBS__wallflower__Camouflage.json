@@ -1,0 +1,1 @@
+{"method": "ZBS", "dataset": "wallflower", "sequence": "Camouflage", "params": {"conf": 0.4, "delta": 0.2, "fore": 0.8, "move": 0.5, "noiof": false, "max_age": 20, "min_hits": 5, "iou": 0.4}, "result": {"score": 0.9838678515728664, "P": 0.9886429819452437, "R": 0.97913862718707, "tp": 10185, "fp": 117, "fn": 217, "tn": 8681}}

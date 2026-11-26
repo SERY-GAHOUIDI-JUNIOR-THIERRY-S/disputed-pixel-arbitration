@@ -1,0 +1,1 @@
+{"method": "ZBS-p3", "dataset": "wallflower", "sequence": "ForegroundAperture", "params": {"conf": 0.4, "delta": 0.2, "fore": 1.0, "move": 0.0, "noiof": false, "max_age": 20, "min_hits": 5, "iou": 0.4}, "result": {"score": 0.5756911459815158, "P": 0.41197489977339713, "R": 0.9553354890864802, "tp": 4727, "fp": 6747, "fn": 221, "tn": 7505}}

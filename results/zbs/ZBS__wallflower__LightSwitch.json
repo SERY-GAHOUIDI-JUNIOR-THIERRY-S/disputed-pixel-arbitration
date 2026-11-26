@@ -1,0 +1,1 @@
+{"method": "ZBS", "dataset": "wallflower", "sequence": "LightSwitch", "params": {"conf": 0.4, "delta": 0.2, "fore": 0.8, "move": 0.5, "noiof": false, "max_age": 20, "min_hits": 5, "iou": 0.4}, "result": {"score": 0.49987490614072333, "P": 0.3397959183673431, "R": 0.9451277199621272, "tp": 2997, "fp": 5823, "fn": 174, "tn": 10206}}
