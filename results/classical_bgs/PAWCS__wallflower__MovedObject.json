@@ -1,0 +1,1 @@
+{"method": "PAWCS", "dataset": "wallflower", "sequence": "MovedObject", "result": {"score": 0.9569791666666617, "P": 0.0, "R": 0.0, "tp": 0, "fp": 826, "fn": 0, "tn": 18374}}

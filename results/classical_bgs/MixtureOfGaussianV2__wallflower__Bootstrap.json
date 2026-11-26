@@ -1,0 +1,1 @@
+{"method": "MixtureOfGaussianV2", "dataset": "wallflower", "sequence": "Bootstrap", "result": {"score": 0.44787039452528155, "P": 0.8224568138194988, "R": 0.30771992818670346, "tp": 857, "fp": 185, "fn": 1928, "tn": 16230}}

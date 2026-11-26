@@ -1,0 +1,1 @@
+{"method": "MixtureOfGaussianV2", "dataset": "wallflower", "sequence": "TimeOfDay", "result": {"score": 0.3590320765025675, "P": 0.9410029498522299, "R": 0.2218358831710555, "tp": 319, "fp": 20, "fn": 1119, "tn": 17742}}

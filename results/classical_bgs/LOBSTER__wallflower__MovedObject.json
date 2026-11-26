@@ -1,0 +1,1 @@
+{"method": "LOBSTER", "dataset": "wallflower", "sequence": "MovedObject", "result": {"score": 0.9712499999999951, "P": 0.0, "R": 0.0, "tp": 0, "fp": 552, "fn": 0, "tn": 18648}}

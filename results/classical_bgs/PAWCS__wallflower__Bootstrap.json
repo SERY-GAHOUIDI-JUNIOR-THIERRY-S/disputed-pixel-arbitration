@@ -1,0 +1,1 @@
+{"method": "PAWCS", "dataset": "wallflower", "sequence": "Bootstrap", "result": {"score": 0.6107812870603793, "P": 0.9018232819073702, "R": 0.46175942549369975, "tp": 1286, "fp": 140, "fn": 1499, "tn": 16275}}

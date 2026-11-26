@@ -1,0 +1,1 @@
+{"method": "MixtureOfGaussianV2", "dataset": "wallflower", "sequence": "WavingTrees", "result": {"score": 0.8084622781211922, "P": 0.8312061837138085, "R": 0.7869298842750037, "tp": 4624, "fp": 939, "fn": 1252, "tn": 12385}}

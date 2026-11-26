@@ -1,0 +1,1 @@
+{"method": "PAWCS", "dataset": "wallflower", "sequence": "ForegroundAperture", "result": {"score": 0.6234951209771635, "P": 0.8358817533129176, "R": 0.49717057396927045, "tp": 2460, "fp": 483, "fn": 2488, "tn": 13769}}

@@ -1,0 +1,1 @@
+{"method": "LOBSTER", "dataset": "wallflower", "sequence": "TimeOfDay", "result": {"score": 0.6509433961764192, "P": 0.6313725490195665, "R": 0.671766342141817, "tp": 966, "fp": 564, "fn": 472, "tn": 17198}}

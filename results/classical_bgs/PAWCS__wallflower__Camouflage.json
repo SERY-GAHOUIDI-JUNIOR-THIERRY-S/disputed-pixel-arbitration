@@ -1,0 +1,1 @@
+{"method": "PAWCS", "dataset": "wallflower", "sequence": "Camouflage", "result": {"score": 0.9681822550687064, "P": 0.9680891964628896, "R": 0.9682753316669778, "tp": 10072, "fp": 332, "fn": 330, "tn": 8466}}

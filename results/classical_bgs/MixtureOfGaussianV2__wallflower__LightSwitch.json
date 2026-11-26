@@ -1,0 +1,1 @@
+{"method": "MixtureOfGaussianV2", "dataset": "wallflower", "sequence": "LightSwitch", "result": {"score": 0.2731395038416025, "P": 0.885813148788774, "R": 0.16146326080100404, "tp": 512, "fp": 66, "fn": 2659, "tn": 15963}}

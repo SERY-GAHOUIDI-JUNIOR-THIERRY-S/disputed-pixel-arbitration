@@ -1,0 +1,1 @@
+{"method": "LOBSTER", "dataset": "wallflower", "sequence": "ForegroundAperture", "result": {"score": 0.7837807730372838, "P": 0.8731695209729244, "R": 0.7109943411479241, "tp": 3518, "fp": 511, "fn": 1430, "tn": 13741}}

@@ -1,0 +1,1 @@
+{"method": "PAWCS", "dataset": "wallflower", "sequence": "LightSwitch", "result": {"score": 0.3067797491789571, "P": 0.18369890329012847, "R": 0.9296751813307811, "tp": 2948, "fp": 13100, "fn": 223, "tn": 2929}}

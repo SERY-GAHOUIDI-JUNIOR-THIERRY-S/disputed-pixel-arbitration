@@ -1,0 +1,1 @@
+{"method": "MixtureOfGaussianV2", "dataset": "wallflower", "sequence": "ForegroundAperture", "result": {"score": 0.3270746971802268, "P": 0.27355540448674, "R": 0.40662894098624885, "tp": 2012, "fp": 5343, "fn": 2936, "tn": 8909}}

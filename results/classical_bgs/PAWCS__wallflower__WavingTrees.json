@@ -1,0 +1,1 @@
+{"method": "PAWCS", "dataset": "wallflower", "sequence": "WavingTrees", "result": {"score": 0.9579100144637723, "P": 0.9611101593284057, "R": 0.95473110959835, "tp": 5610, "fp": 227, "fn": 266, "tn": 13097}}

@@ -1,0 +1,1 @@
+{"method": "MixtureOfGaussianV2", "dataset": "wallflower", "sequence": "Camouflage", "result": {"score": 0.10313739631000396, "P": 0.8289855072462566, "R": 0.054989425110555136, "tp": 572, "fp": 118, "fn": 9830, "tn": 8680}}

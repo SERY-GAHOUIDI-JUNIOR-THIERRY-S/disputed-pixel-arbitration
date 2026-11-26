@@ -1,0 +1,1 @@
+{"method": "LOBSTER", "dataset": "wallflower", "sequence": "LightSwitch", "result": {"score": 0.24668275027477027, "P": 0.14672645739910228, "R": 0.7738883632923124, "tp": 2454, "fp": 14271, "fn": 717, "tn": 1758}}

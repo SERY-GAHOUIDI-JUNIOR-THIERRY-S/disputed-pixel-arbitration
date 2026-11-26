@@ -1,0 +1,1 @@
+{"method": "PAWCS", "dataset": "wallflower", "sequence": "TimeOfDay", "result": {"score": 0.383759733004638, "P": 0.9583333333330671, "R": 0.23991655076493462, "tp": 345, "fp": 15, "fn": 1093, "tn": 17747}}
